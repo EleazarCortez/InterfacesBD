@@ -1,3 +1,5 @@
-﻿Public Class Form7
+﻿Public Class Editar
+    Private Sub Editar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class
