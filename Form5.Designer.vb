@@ -38,11 +38,13 @@ Partial Class Form5
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.btnGestionU = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.btnGestionU)
         Me.GroupBox1.Controls.Add(Me.TextBox7)
         Me.GroupBox1.Controls.Add(Me.TextBox6)
@@ -179,12 +181,21 @@ Partial Class Form5
         '
         'btnGestionU
         '
-        Me.btnGestionU.Location = New System.Drawing.Point(317, 295)
+        Me.btnGestionU.Location = New System.Drawing.Point(317, 293)
         Me.btnGestionU.Name = "btnGestionU"
         Me.btnGestionU.Size = New System.Drawing.Size(75, 23)
         Me.btnGestionU.TabIndex = 15
         Me.btnGestionU.Text = "Guardar"
         Me.btnGestionU.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(410, 293)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 16
+        Me.Button1.Text = "Salir"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form5
         '
@@ -216,4 +227,5 @@ Partial Class Form5
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents btnGestionU As Button
+    Friend WithEvents Button1 As Button
 End Class
